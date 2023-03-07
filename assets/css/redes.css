@@ -11,4 +11,30 @@
     width: 45px;
     height: 45px;
     transform: translate(-95%, -95%);
+    transition: 500ms;
 }
+
+.icone-fixed:hover {
+    padding-right: 25px;
+}
+
+.wpp {
+    border-top-left-radius: 10px;
+}
+
+.insta {
+    border-bottom-left-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .icone-fixed:hover {
+        padding-right: 35px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .icone-fixed:hover {
+        padding-right: 45px;
+    }
+}
+
