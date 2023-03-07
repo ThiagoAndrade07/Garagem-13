@@ -1,0 +1,58 @@
+.projetos {
+    height: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slide-projeto {
+    border-radius: 20px;
+}
+
+.slide8 {
+    background-image: url(https://i.ibb.co/ByMWqDp/projeto1.png);
+}
+
+.slide9 {
+    background-image: url(https://i.ibb.co/wJB3s0r/projeto2.png);
+}
+
+.slide10 {
+    background-image: url(https://i.ibb.co/Z2nK5sv/projeto3.png);
+}
+
+.slide11 {
+    background-image: url(https://i.ibb.co/HHJZW0C/projeto4.png);
+}
+
+.slide12 {
+    background-image: url(https://i.ibb.co/zRgRsdV/projeto5.png);
+}
+
+.slide13 {
+    background-image: url(https://i.ibb.co/fMfGG4f/projeto6.png);
+}
+
+.slide14 {
+    background-image: url(https://i.ibb.co/P4wL07L/projeto7.png);
+}
+
+@media screen and (min-width: 768px) {
+
+    .projetos {
+        height: 400px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .projetos {
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1350px) {
+    .projetos {
+        height: 900px;
+    }
+}

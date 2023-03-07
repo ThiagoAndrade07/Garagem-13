@@ -1,0 +1,58 @@
+@import url("header.css");
+@import url("destaque.css");
+@import url("redes.css");
+@import url("servicos.css");
+@import url("projetos.css");
+@import url("agendamento.css");
+@import url("localizacao.css");
+@import url("footer.css");
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+}
+
+h2 {
+    text-align: center;
+    margin: 1.2em;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #000000;
+}
+
+.h2-branco {
+    text-align: center;
+    margin: 1.2em;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.borda {
+    height: 100%;
+    border-bottom: 1px solid #000000;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+    h2 {
+        font-size: 30px;
+    }
+
+    .h2-branco {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .h2-branco {
+        font-size: 40px;
+    }
+}
+
